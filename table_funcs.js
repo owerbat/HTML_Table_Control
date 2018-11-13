@@ -1,6 +1,6 @@
-function create_table(){
+function create_table() {
     if (document.querySelector("table") != null) {
-        alert("The table already exists")
+        alert("The table already exists");
         return;
     }
 
@@ -21,7 +21,7 @@ function create_table(){
 function delete_table() {
     var table = document.querySelector("table");
     if (table == null) {
-        alert("There is nothing to delete")
+        alert("There is nothing to delete");
         return;
     }
 
@@ -33,7 +33,7 @@ function delete_table() {
 function add_row() {
     var table = document.querySelector("table");
     if (table == null) {
-        alert("Create table first")
+        alert("Create table first");
         return;
     }
 
@@ -54,7 +54,7 @@ function add_row() {
 function add_column() {
     var table = document.querySelector("table");
     if (table == null) {
-        alert("Create table first")
+        alert("Create table first");
         return;
     }
 
